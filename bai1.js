@@ -1,0 +1,20 @@
+let diemvatly;
+let diemhoahoc;
+let diemsinhhoc;
+diemvatly=prompt('Điểm Vật Lý');
+diemhoahoc=prompt('Điểm Hóa Học');
+diemsinhhoc=prompt('Điểm Sinh Học');
+let a=parseInt(diemvatly);
+let b=parseInt(diemhoahoc);
+let c=parseInt(diemsinhhoc);
+let d = (a+b+c)/3;
+let e = a+b+c;
+document.write('Điểm Vật lý = '+a);
+document.write('<br/>');
+document.write('Điểm Hóa học = ' +b);
+document.write('<br/>');
+document.write('Điểm Sinh học = ' +c);
+document.write('<br/>');
+document.write('Điểm Trung bình = ' +d)
+document.write('<br/>');
+document.write('Điểm Tổng = ' +e);
